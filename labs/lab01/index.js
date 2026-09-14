@@ -32,9 +32,7 @@ function max(a, b, c) {
 }
 
 document.getElementById("exercise2").textContent =
-    `${max(1, 0, 1)}
-     ${max(0, -10, -20)}
-     ${max(1000, 510, 440)}`;
+    `${max(1, 0, 1)}\n${max(0, -10, -20)}\n${max(1000, 510, 440)}`;
 
 console.log("\n==== EXERCISE 2 ====");
 console.log(max(1, 0, 1));
@@ -56,9 +54,7 @@ function right(str) {
 }
 
 document.getElementById("exercise3").textContent =
-    `${right("Python")}
-     ${right("JavaScript")}
-     ${right("Hi")}`;
+    `${right("Python")}\n${right("JavaScript")}\n${right("Hi")}`;
 
 console.log("\n==== EXERCISE 3 ====");
 console.log(right("Python"));
@@ -84,10 +80,7 @@ function angle_type(angle) {
 }
 
 document.getElementById("exercise4").textContent =
-    `${angle_type(47)}
-     ${angle_type(90)}
-     ${angle_type(145)}
-     ${angle_type(180)}`;
+    `${angle_type(47)}\n${angle_type(90)}\n${angle_type(145)}\n${angle_type(180)}`;
 
 console.log("\n==== EXERCISE 4 ====");
 console.log(angle_type(47));
@@ -118,9 +111,7 @@ function array_max_sum(arr, k) {
 }
 
 document.getElementById("exercise5").textContent =
-    `${array_max_sum([1, 2, 3, 14, 5], 2)} 
-     ${array_max_sum([2, 3, 5, 1, 6], 3)}
-     ${array_max_sum([9, 3, 5, 1, 7], 2)}`;
+    `${array_max_sum([1, 2, 3, 14, 5], 2)}\n${array_max_sum([2, 3, 5, 1, 6], 3)}\n${array_max_sum([9, 3, 5, 1, 7], 2)}`;
 
 console.log("\n==== EXERCISE 5 ====");
 console.log(array_max_sum([1, 2, 3, 14, 5], 2));
