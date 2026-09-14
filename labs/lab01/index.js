@@ -71,3 +71,29 @@ console.log(angleType(47));
 console.log(angleType(90));
 console.log(angleType(145));
 console.log(angleType(180));
+
+// =======================================================================
+// EXERCISE 5 – Find the Maximum Sum of K Consecutive Numbers in an Array
+// =======================================================================
+function arrMaxSum(arr, k) {
+    let maxSum = 0;
+
+    for (let i = 0; i <= arr.length - k; i++) {
+        let currentSum = 0;
+
+        for (let j = i; j < i + k; j++) {
+            currentSum += arr[j];
+        }
+
+        if (currentSum > maxSum) {
+            maxSum = currentSum;
+        }
+    }
+
+    return maxSum;
+}
+
+console.log("\n==== EXERCISE 5 ====");
+console.log(arrMaxSum([1, 2, 3, 14, 5], 2));
+console.log(arrMaxSum([2, 3, 5, 1, 6], 3));
+console.log(arrMaxSum([9, 3, 5, 1, 7], 2));
