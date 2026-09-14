@@ -3,6 +3,7 @@
 // =======================================================================
 // EXERCISE 1 – Capitalize the First Letter of Each Word of a String
 // =======================================================================
+
 function capitalizeWords(str) {
     return str
         .split(" ")
@@ -16,6 +17,7 @@ console.log(capitalizeWords("the quick brown fox"));
 // =======================================================================
 // EXERCISE 2 – Find the Largest of Three Integers
 // =======================================================================
+
 function max(a, b, c) {
     if (a >= b && a >= c) {
         return a;
@@ -34,6 +36,7 @@ console.log(max(1000, 510, 440));
 // =======================================================================
 // EXERCISE 3 – Move the Last Three Characters to the Start of a String
 // =======================================================================
+
 function right(str) {
 
     // Return the string unchanged if its length is less than three
@@ -52,6 +55,7 @@ console.log(right("Hi"));
 // =======================================================================
 // EXERCISE 4 – Find the Types of an Angle
 // =======================================================================
+
 function angleType(angle) {
     if (angle > 0 && angle < 90) {
         return "Acute angle";
@@ -75,6 +79,7 @@ console.log(angleType(180));
 // =======================================================================
 // EXERCISE 5 – Find the Maximum Sum of K Consecutive Numbers in an Array
 // =======================================================================
+
 function arrMaxSum(arr, k) {
     let maxSum = 0;
 
