@@ -12,3 +12,21 @@ function capitalizeWords(str) {
 
 console.log("\n==== EXERCISE 1 ====");
 console.log(capitalizeWords("the quick brown fox"));
+
+// =======================================================================
+// EXERCISE 2 – Find the Largest of Three Integers
+// =======================================================================
+function max(a, b, c) {
+    if (a >= b && a >= c) {
+        return a;
+    } else if (b >= a && b >= c) {
+        return b;
+    } else {
+        return c;
+    }
+}
+
+console.log("\n==== EXERCISE 2 ====");
+console.log(max(1, 0, 1));
+console.log(max(0, -10, -20));
+console.log(max(1000, 510, 440));
