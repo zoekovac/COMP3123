@@ -48,3 +48,26 @@ console.log("\n==== EXERCISE 3 ====");
 console.log(right("Python"));
 console.log(right("JavaScript"));
 console.log(right("Hi"));
+
+// =======================================================================
+// EXERCISE 4 – Find the Types of an Angle
+// =======================================================================
+function angleType(angle) {
+    if (angle > 0 && angle < 90) {
+        return "Acute angle";
+    } else if (angle === 90) {
+        return "Right angle";
+    } else if (angle > 90 && angle < 180) {
+        return "Obtuse angle";
+    } else if (angle === 180) {
+        return "Straight angle";
+    } else {
+        return "Invalid angle";
+    }
+}
+
+console.log("\n==== EXERCISE 4 ====");
+console.log(angleType(47));
+console.log(angleType(90));
+console.log(angleType(145));
+console.log(angleType(180));
